@@ -11,6 +11,6 @@ def my_each(array)
 end
 
 my_each(array) do |element|
-  
+  puts element
 end
 
