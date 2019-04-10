@@ -6,6 +6,8 @@ def my_each(random)
     yield random
   end
   
+  random
+  
 end
 
 #my_each(random) do |element|
