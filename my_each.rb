@@ -1,14 +1,14 @@
-def my_each(array)
+def my_each(random)
   
   counter = 0 
-  while counter <= array.length
+  while counter <= random.length
   counter+=1
-    yield array
+    yield random
   end
   
 end
 
-my_each(array) do |element|
+my_each(random) do |element|
   puts element
 end
 
