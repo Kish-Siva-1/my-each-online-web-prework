@@ -3,7 +3,7 @@ def my_each(random)
   counter = 0
   while counter < random.length
   counter+=1
-    yield random
+    yield random[counter]
   end
   
   random
