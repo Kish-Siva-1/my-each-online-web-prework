@@ -9,6 +9,6 @@ def my_each(random)
 end
 
 my_each(random) do |element|
-  puts element
+  element
 end
 
