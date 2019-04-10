@@ -8,7 +8,7 @@ def my_each(random)
   
 end
 
-my_each(random) do |element|
-  element
-end
+#my_each(random) do |element|
+  #element
+#end
 
