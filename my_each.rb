@@ -6,8 +6,6 @@ def my_each(array)
     yield array
   end
   
-  array
-  
 end
 
 my_each(array) do |element|
