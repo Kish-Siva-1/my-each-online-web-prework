@@ -1,6 +1,6 @@
 def my_each(random)
   
-  counter = 0 
+  counter = 1
   while counter <= random.length
   counter+=1
     yield random
